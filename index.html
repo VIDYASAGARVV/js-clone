@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="sectionHomePage">
+      <div class="background-bg">
+        <h1 class="main-heading">Popular Book</h1>
+
+        <div class="card-container d-flex flex-row">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"
+            class="image-set"
+          />
+
+          <div class="distance">
+            <br />
+            <h1 class="card-heading">Wings of Fire</h1>
+
+            <p class="card-paragraph">
+              An Autobiography of <br />
+              Abdul Kalam
+            </p>
+
+            <p class="card-sub-paragraph">by Arun Tiwari</p>
+
+            <button
+              class="button btn btn-primary"
+              onclick="display('sectionWings')"
+            >
+              Read Now
+            </button>
+          </div>
+        </div>
+
+        <h1 class="main-heading sub-sub">Recommended Books</h1>
+
+        <div class="card-container-sub d-flex flex-row">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"
+            class="image-set1"
+          />
+
+          <div class="distance">
+            <h1 class="mistake">The 3 mistakes of my life</h1>
+
+            <p class="chetan">Indian author by Chetan Bhagat</p>
+
+            <button
+              class="button btn btn-primary"
+              onclick="display('sectionChetanBag')"
+            >
+              Read Now
+            </button>
+          </div>
+        </div>
+
+        <div class="harry">
+          <div class="card-container-sub d-flex flex-row">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"
+              class="image-set1"
+            />
+
+            <div class="distance">
+              <h1 class="mistake">Harry Potter</h1>
+
+              <p class="chetan">and the Sorcerer's Stone by J.K.Rowting</p>
+
+              <button
+                class="button btn btn-primary"
+                onclick="display('sectionHarryPotter')"
+              >
+                Read Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sectionWings">
+      <div class="page-bg-container">
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"
+          width="170px"
+        />
+        <h1 class="second-name">Wings of Fire</h1>
+        <p class="second-para">by Arun Tiwari</p>
+        <p class="sec-decription">
+          Wings of Fire: An Autobiography of APJ Abdul Kalam, former President
+          of India. It was written by Dr. Abdul Kalam and Arun Tiwari. Dr. Kalam
+          examines his early life, effort, hardship, fortitude, luck and chance
+          that eventually led him to lead Indian space research, nuclear and
+          missile programs
+        </p>
+        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-warning" onclick=" display('sectionHomePage')">
+          Back
+        </button>
+      </div>
+    </div>
+    <div id="sectionChetanBag">
+      <div class="page-bg-container">
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"
+          width="170px"
+        />
+        <h1 class="second-name">Chetan Bhagat</h1>
+        <p class="second-para">by Chetan Bhagat</p>
+        <p class="sec-decription">
+          Chetan Bhagat is an Indian author and columnist. He was included in
+          Time magazine's list of World's 100 Most Influential People in 2010.
+          Bhagat graduated in mechanical engineering at IIT Delhi and completed
+          a PGP at IIM Ahmedabad.
+        </p>
+        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-warning" onclick="display('sectionHomePage')">
+          Back
+        </button>
+      </div>
+    </div>
+    <div id="sectionHarryPotter">
+      <div class="page-bg-container">
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"
+          width="170px"
+        />
+        <h1 class="second-name">Harry Potter</h1>
+        <p class="second-para">by J. K. Rowling</p>
+        <p class="sec-decription">
+          Harry Potter is a series of seven fantasy novels written by British
+          author J. K. Rowling. The novels chronicle the lives of a young
+          wizard, Harry Potter, and his friends Hermione Granger and Ron
+          Weasley, all of whom are students at Hogwarts School of Witchcraft and
+          Wizardry.
+        </p>
+        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-warning" onclick="display('sectionHomePage')">
+          Back
+        </button>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.background-bg {
+  height: 137vh;
+  background-color: #1b1b1b;
+}
+
+.image-set {
+  height: 42vh;
+
+  width: 120px;
+}
+
+.card-container {
+  background-color: #e6f6ff;
+  margin-bottom: 2px;
+  height: 42vh;
+  margin: 20px;
+
+  border-radius: 10px;
+}
+
+.card-heading {
+  color: #183b56;
+
+  font-size: 20px;
+
+  font-family: "Bree Serif";
+
+  font-weight: bold;
+}
+
+.main-heading {
+  color: #ffffff;
+
+  font-size: 25px;
+
+  margin: 5px;
+
+  padding: 16px;
+
+  font-weight: bold;
+}
+
+.distance {
+  margin: 6px;
+}
+
+.card-paragraph {
+  font-size: 15px;
+
+  font-weight: bold;
+
+  color: #06070d;
+
+  font-family: "Bree Serif";
+}
+
+.card-sub-paragraph {
+  color: #9aa5b1;
+
+  font-weight: bold;
+
+  font-family: "Bree Serif";
+
+  font-size: 10px;
+}
+
+.harry {
+  margin-top: 85px;
+}
+
+.sub-sub {
+  font-size: 20px;
+}
+
+.card-container-sub {
+  height: 50vh;
+
+  margin: 20px;
+}
+
+.mistake {
+  font-size: 18px;
+
+  font-family: "Roboto";
+
+  font-weight: bold;
+
+  color: #ffffff;
+}
+
+.chetan {
+  color: #9aa5b1;
+
+  font-family: "Roboto";
+
+  font-weight: bold;
+
+  font-size: 15px;
+}
+
+.image-set1 {
+  padding: 3px;
+  height: 24vh;
+}
+
+.card-container-sub {
+  height: 10vh;
+
+  margin: 20px;
+}
+
+.page-bg-container {
+  background-color: #1b1b1b;
+  height: 110vh;
+  padding: 13px;
+  color: white;
+  text-align: center;
+}
+
+.second-name {
+  color: white;
+  margin: 9px;
+  padding: 5px;
+  font-size: 27px;
+}
+
+.second-para {
+  margin: 6px;
+  color: grey;
+}
+
+.sec-decription {
+  text-align: center;
+  font-family: italic;
+}
